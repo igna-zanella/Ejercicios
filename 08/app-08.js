@@ -1,7 +1,7 @@
 
 const prompt = require("prompt-sync")()
 
-function anteriorDelTriple() {
+function promedio() {
     var primerValor = prompt("Ingrese un número para promediar: ")
     var segundoValor = prompt("Ingrese otro número para promediar: ")
     var tercerValor = prompt("Ingrese un último número para promediar: ")
@@ -13,5 +13,5 @@ function anteriorDelTriple() {
     console.log("El promedio es: " + resultado)
     }
 }
-anteriorDelTriple()
+promedio()
 
