@@ -2,9 +2,9 @@
 const prompt = require("prompt-sync")()
 
 function promedio() {
-    var primerValor = prompt("Ingrese un número para promediar: ")
-    var segundoValor = prompt("Ingrese otro número para promediar: ")
-    var tercerValor = prompt("Ingrese un último número para promediar: ")
+    let primerValor = prompt("Ingrese un número para promediar: ")
+    let segundoValor = prompt("Ingrese otro número para promediar: ")
+    let tercerValor = prompt("Ingrese un último número para promediar: ")
     
     if ( isNaN(primerValor) || isNaN(segundoValor) || isNaN(tercerValor)) {
         console.log("No ingresó un número. Por favor, vuelva a intentarlo.")
