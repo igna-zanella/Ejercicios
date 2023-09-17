@@ -3,7 +3,7 @@ const prompt = require("prompt-sync")()
 
 function anterior() {
     let x = prompt("Ingrese un número para restarle una unidad: ")
-    let resultado = x - 1
+    let resultado = --x
     console.log("El resultado es: " + resultado)
 }
 anterior()
