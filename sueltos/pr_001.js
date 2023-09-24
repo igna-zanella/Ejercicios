@@ -1,3 +1,4 @@
+const prompt = require("prompt-sync")()
 
 
 // Interview question callback functions - High order functions
@@ -32,14 +33,25 @@ class Car {
     }
 }
 
-const audi = new Car("Audi", 11)
+const audi = new Car("Audi", 10)
 const tata = new Car("Tata", 9)
 const ford = new Car("Ford", 9)
 
-console.log(Car.comparePrice(audi, ford))
+
+// function addNewCar() {
+
+    var nname = prompt("Enter car brand: ");
+    var pprice = parseInt(prompt("Enter price: "));
+      
+   const fiat = new Car(nname, pprice);
+//    return new Car(nname, pprice);
+    
+//   }
+//   console.log(addNewCar())
+//   const fiat = new Car("Fiat", 44)
+console.log(Car.comparePrice(fiat, audi))
 
 // JS clean code in an Object
-const prompt = require("prompt-sync")()
 const jugador21 = {
     nombre: "",
     apellido: "",
@@ -61,5 +73,23 @@ edad = prompt("Ingrese la edad: ")
 console.log(jugador21.nombre + " " + apellido)
 console.log(edad)
 
-
+class Person {
+    constructor(fname, lname, brithdate) {
+      this.firsName = fname;
+      this.lastName = lname;
+      this.dov = brithdate;
+    }
+  }
+    
+  let person1 = new Person("Alifa", "Elham", "12-07-2000");
+  let person2 = new Person("Mazdul", "Prodhan", "07-03-2000");
+  
+  function addNewPerson() {
+    let ffname = prompt("Enter your firstname: ");
+    let llname = prompt("Enter your lastname: ");
+    let ddov = prompt("Enter your date of birth: ");
+  
+    return new Person(ffname, llname, ddov);
+  }
+  console.log(addNewPerson())
 
