@@ -1,5 +1,5 @@
-const prompt = require("prompt-sync")()
 
+const prompt = require("prompt-sync")()
 
 // Interview question callback functions - High order functions
 function add(a,b) {
