@@ -8,8 +8,8 @@ const prompt = require("prompt-sync")()
 const texto = prompt("Hablale al loro: ")
 
 function loro() {
-    return (texto + ", ").repeat(5)
+    return (texto + "... ").repeat(5)
     
 }
 
-console.log(loro(texto))
+console.log("Loro: " + loro(texto))
