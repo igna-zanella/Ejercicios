@@ -12,4 +12,4 @@ function loro() {
     
 }
 
-console.log("Loro: " + loro(texto))
+console.log('\x1b[41m', "Loro: " + loro(texto))
