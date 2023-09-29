@@ -30,4 +30,3 @@ const concesionaria = {
 // console.log(concesionaria.buscarAuto("APL123"))
 console.log(concesionaria.venderAuto("APL123"))
 console.log(autos)
-// console.log(vendido.venderAuto())
