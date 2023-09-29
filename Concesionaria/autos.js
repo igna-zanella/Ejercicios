@@ -12,7 +12,7 @@ module.exports = [
         cuotas: 12,
         anio: 2019,
         patente: "APL123",
-        vendido: false
+        vendido: "En stock"
     },
      {
         marca: "Toyota",
@@ -23,7 +23,7 @@ module.exports = [
         cuotas: 14,
         anio: 2019,
         patente: "JJK116",
-        vendido: false
+        vendido: "En stock"
     }
 ] 
 
